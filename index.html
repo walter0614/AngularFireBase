@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FireJob</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- My Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body ng-app="FireJobApp">
+    <div ng-include="'views/nav.html'"></div>
+    <div class="container">
+      <div ng-view>
+        
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Includes-->
+    <script src="js/app.js"></script>
+    <script src="js/controller/trabajo.js"></script>
+    <script src="js/controller/auten-ctrl.js"></script>
+    <script src="js/services/auten-service.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-animate.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-resource.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+
+
+  </body>
+</html>

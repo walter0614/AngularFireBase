@@ -1,0 +1,63 @@
+<h3>Editar</h3>
+</br>
+
+<form class="form-publicar" ng-submit="setWork(workCheck)">
+    <div class="col-md-6">
+    	<div class="form-group">
+	    	<label>Title</label>
+	    	<input type="text" class="form-control" placeholder="Title from work" ng-model="workCheck.title">
+    	</div>
+    </div>
+    <div class="col-md-6">
+    	<div class="form-group">
+	    	<label>Business</label>
+	    	<input type="text" class="form-control" placeholder="Name from Business" ng-model="workCheck.name">
+    	</div>
+    </div>
+    <div class="col-md-12">
+    	<div class="form-group">
+	    	<label>Description</label>
+	    	<textarea class="form-control" rows="3" placeholder="Name from Business" ng-model="workCheck.description"></textarea>
+    	</div>
+    </div>
+    <div class="col-md-6">
+    	<div class="form-group">
+    		<label>Categories</label>
+	    	<select class="form-control" ng-model="workCheck.categorie">
+	    		<option value="Categorie 1">Categorie 1</option>
+	    		<option value="Categorie 2">Categorie 2</option>
+	    		<option value="Categorie 3">Categorie 3</option>
+	    		<option value="Categorie 4">Categorie 4</option>
+	    	</select>
+    	</div>
+    </div>
+    <div class="col-md-6">
+    	<div class="form-group">
+    		<label>Ubication</label>
+	    	<select class="form-control" ng-model="workCheck.ubication">
+	    		<option value="Ubication 1">Ubication 1</option>
+	    		<option value="Ubication 2">Ubication 2</option>
+	    		<option value="Ubication 3">Ubication 3</option>
+	    		<option value="Ubication 4">Ubication 4</option>
+	    	</select>
+    	</div>
+    </div>
+    <div class="col-md-6">
+    	<div class="form-group">
+    		<label>Time</label>
+	    	<select class="form-control" ng-model="workCheck.time">
+	    		<option value="Time 1">Time 1</option>
+	    		<option value="Time 2">Time 2</option>
+	    		<option value="Time 3">Time 3</option>
+	    		<option value="Time 4">Time 4</option>
+	    	</select>
+    	</div>
+    </div>
+    <div class="col-md-6">
+    	<div class="form-group">
+    		<label>Pay</label>
+	    	<input type="number" class="form-control" placeholder="Pay" ng-model="workCheck.pay">
+    	</div>
+    </div>
+    <button type="submit" class="btn btn-danger">Guardar</button>
+</form>

@@ -1,0 +1,19 @@
+<h3 class="text-center">Start Session</h3>
+</br>
+<form class="form-start" ng-submit="session(user)">
+	<div class="form-group">
+		<div class="input-group">
+			<div class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></div>
+			<input type="email" ng-model="user.email" class="form-control" placeholder="E-mail">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="input-group">
+			<div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+			<input type="password" ng-model="user.password" class="form-control" placeholder="Password">
+		</div>
+	</div>
+	<div class="text-center">
+		<button type="submit" class="btn btn-primary">Start Session</button>
+	</div>
+</form>

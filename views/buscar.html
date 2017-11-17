@@ -1,0 +1,15 @@
+<h3>Buscar</h3>
+</br>
+<a class="list-group" ng-repeat="t in works" ng-href="#!/editar/{{t.$id}}">
+	<div class="list-group-item">
+		<div class="row-picture">
+			<img class="img-circle" src="http://lorempixel.com/56/56/people/1" alt="icon">
+		</div>
+		<div class="row-content">
+			<div class="least-content">15m</div>
+			<h4 class="list-group-item-heading">{{t.title}}</h4>
+			<p class="list-group-item-text">{{t.name}}-{{t.description}}</p>
+		</div>
+	</div>
+	<div class="list-group-separator"></div>
+</a>
